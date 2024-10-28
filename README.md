@@ -1,5 +1,5 @@
 # focus-list
-Repository created to test and improve my knowledge and skills in web development using the Vue.js framework. Through this project, I seek to deepen my understanding of web technologies and improve my ability to create efficient and responsive applications.
+Repository created to test and improve my knowledge and skills in web development using the Vue.js framework. Through this project, I seek to deepen my understanding of web technologies and improve my ability to create efficient and responsive applications..
 
 * Add Tasks: Users can add tasks for specific days.
 
