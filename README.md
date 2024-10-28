@@ -1,19 +1,37 @@
-![print-do-projeto](./focus-list/src/assets/wireframe-projeto.png)
-## 🚀 Sobre o Projeto
-Repositório criado para testar e aprimorar meus conhecimentos e habilidades em desenvolvimento web usando o framework Vue.js. Através deste projeto, busco aprofundar minha compreensão das tecnologias web e melhorar minha capacidade de criar aplicações eficientes e responsivas.
+# focus-list
+Repository created to test and improve my knowledge and skills in web development using the Vue.js framework. Through this project, I seek to deepen my understanding of web technologies and improve my ability to create efficient and responsive applications..
 
-## 📋 Visão Geral do Projeto
-Este projeto demonstra uma aplicação simples usando Vue.js para gerenciar tarefas dentro de um calendário. As principais funcionalidades incluem armazenamento, visualização e remoção de tarefas, com o objetivo de aprimorar o entendimento sobre os fundamentos do Vue.js e o tratamento de entrada de dados do usuário.
+* Add Tasks: Users can add tasks for specific days.
 
-* Adicionar Tarefas: Usuários podem adicionar tarefas para dias específicos.
+* View Tasks: Tasks are displayed in a calendar format, making it easy to see the daily schedule.
 
-* Visualizar Tarefas: As tarefas são exibidas em formato de calendário, facilitando a visualização do cronograma diário.
+* Remove Tasks: Users can delete tasks that are no longer needed, keeping the calendar organized.
 
-* Remover Tarefas: Usuários podem deletar tarefas que não são mais necessárias, mantendo o calendário organizado.
+## 📚 How to use this project
 
-* Design Responsivo: A interface se adapta a diferentes tamanhos de tela, tornando o uso confortável tanto em desktop quanto em dispositivos móveis.
+## Clone the Repository
+Clone this repository in your local machine using this command:
+https://github.com/Gabrielvsiqueira/FocusList
 
-## 📦  Tecnologias Utilizadas
-Vue.js: Framework front-end usado para construir a interface da aplicação e gerenciar o estado.
-HTML/CSS: Estruturação e estilização dos componentes.
-JavaScript/TypeScript: Lógica para gerenciamento de tarefas, incluindo funções de adição e remoção.
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
