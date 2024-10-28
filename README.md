@@ -1,6 +1,12 @@
 # focus-list
 Repository created to test and improve my knowledge and skills in web development using the Vue.js framework. Through this project, I seek to deepen my understanding of web technologies and improve my ability to create efficient and responsive applications.
 
+* Add Tasks: Users can add tasks for specific days.
+
+* View Tasks: Tasks are displayed in a calendar format, making it easy to see the daily schedule.
+
+* Remove Tasks: Users can delete tasks that are no longer needed, keeping the calendar organized.
+
 ## 📚 How to use this project
 
 ## Clone the Repository
