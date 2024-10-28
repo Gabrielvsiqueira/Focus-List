@@ -1,13 +1,13 @@
 <template>
     <section class="list">
-        <h3 id="texto">Escreva e adicione a tarefa que deseja incluir.</h3>
-        <input class="getTask" v-model="newTask" type="text" placeholder="Digite a tarefa..">
-        <button id="adicionar" @click="addTask()">Adicionar Tarefa</button>
+        <h3 id="getText">Write and add the task you want to include.</h3>
+        <input class="getTask" v-model="newTask" type="text" placeholder="Write your task..">
+        <button id="addTask" @click="addTask()">Add Task</button>
         
         <ul>
             <li v-for="(task, index) in tasks" :key="index" class="task-item">
                 <span>{{ task }}</span>
-                <button @click="removeTask(index)">Excluir</button>
+                <button @click="removeTask(index)"> x </button>
             </li>
         </ul>
     </section>
@@ -41,7 +41,7 @@ return {newTask, tasks, addTask,removeTask };
 .list {
     padding: 2rem;
 }
-#texto {
+#getText {
     font-size: 1.5rem;
     margin: 12px;
 }
@@ -56,7 +56,7 @@ return {newTask, tasks, addTask,removeTask };
 .getTask::placeholder {
     color: #bebcbc;
 }
-#adicionar {
+#addTask {
     font-size: 1.5ch;
     border: 2px solid #FFFF;
     background-color: #555;
