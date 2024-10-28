@@ -1,5 +1,5 @@
-## 🚀 Sobre o Projeto
 ![print-do-projeto](./focus-list/src/assets/wireframe-projeto.png)
+## 🚀 Sobre o Projeto
 Repositório criado para testar e aprimorar meus conhecimentos e habilidades em desenvolvimento web usando o framework Vue.js. Através deste projeto, busco aprofundar minha compreensão das tecnologias web e melhorar minha capacidade de criar aplicações eficientes e responsivas.
 
 ## 📋 Visão Geral do Projeto
