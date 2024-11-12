@@ -1,17 +1,21 @@
 <template>
-  <PageHeader></PageHeader>
-  <HomePage></HomePage>
+  <h1 class="headerPage">To-Do List</h1>
+  <InputTask></InputTask>
+  <ButtonsElement></ButtonsElement>
+  <NewList></NewList>
 </template>
 
 <script>
-import PageHeader from './components/PageHeader.vue';
-import HomePage from './components/HomePage.vue';
+import InputTask from './components/InputTask.vue';
+import ButtonsElement from './components/ButtonsElement.vue';
+import NewList from './components/NewList.vue';
 
 export default {
   name: 'App',
   components: {
-    HomePage,
-    PageHeader
+    InputTask,
+    ButtonsElement,
+    NewList
   }
 }
 </script>
@@ -22,5 +26,10 @@ export default {
   background-color: #237d39;
   font-family: 'poppins';
   color: #FFFF;
+  text-align: center;
+}
+.headerPage{
+    font-size: 8rem;
+    padding: 1rem;
 }
 </style>
