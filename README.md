@@ -11,7 +11,7 @@ Repository created to test and improve my knowledge and skills in web developmen
 
 ## Clone the Repository
 Clone this repository in your local machine using this command:
-https://github.com/Gabrielvsiqueira/FocusList
+git clone https://github.com/Gabrielvsiqueira/FocusList
 
 ## Project setup
 ```
