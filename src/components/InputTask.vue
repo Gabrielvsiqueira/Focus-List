@@ -1,18 +1,29 @@
 <template>
     <h3 id="getText">Write and add the task you want to include.</h3>
-    <input class="getTask" v-model="newTask" type="text" placeholder="Write your task..">
+    <input class="getTask" v-model="newTask" type="text" placeholder="Write your task.." />
+    <button id="addTask" @click="addTaskToList">Add Task</button> 
 </template>
 
 <script>
 import { ref } from 'vue';
-import ButtonsElement from './ButtonsElement.vue';
 
 export default {
-    setup(){
-        const newTask = ref(''); 
-        const tasks = ref([]); 
+    props: {
+        addTask: {
+            type: Function,
+            required: true
+        }
+    },
+    setup(props) {
+        const newTask = ref('');
 
-        return {newTask, tasks, ButtonsElement};
+        const addTaskToList = () => {
+            if (newTask.value.trim() !== '') {
+                props.addTask(newTask.value);
+                newTask.value = ''; 
+            }
+        };
+        return { newTask, addTaskToList };
     }
 }
 </script>
@@ -33,5 +44,13 @@ export default {
 }
 .getTask::placeholder {
     color: #bebcbc;
+}
+#addTask {
+    font-size: 1.5ch;
+    border: 2px solid #FFFF;
+    background-color: #555;
+    color: #FFF; 
+    cursor: pointer;
+    height: 2rem;
 }
 </style>
